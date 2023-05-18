@@ -1,0 +1,15 @@
+version: "3"
+services:
+  webapp:
+    image: image1
+    ports:
+      - 80:80
+    deploy:
+      replicas: 2
+servies:
+  loginapp:
+    image: image2
+    ports:
+      - 81:80
+    deploy:
+      replicas: 2
