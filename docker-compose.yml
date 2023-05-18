@@ -3,7 +3,7 @@ services:
   webapp:
     image: image1
     ports:
-      - 80:80
+      - 85:80
     deploy:
       replicas: 2
 services:
