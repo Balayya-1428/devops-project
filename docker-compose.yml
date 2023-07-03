@@ -1,15 +1,14 @@
 version: "3.3"
 services:
   webapp:
-    image: image1
+    image: nginx
     ports:
       - 85:80
     deploy:
-      replicas: 2
-services:
+      replicas: 3
   loginapp:
-    image: image2
+    image: httpd
     ports:
       - 81:80
     deploy:
-      replicas: 2
+      replicas: 3
