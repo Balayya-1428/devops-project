@@ -5,10 +5,10 @@ services:
     ports:
       - 85:80
     deploy:
-      replicas: 3
+      replicas: 2
   loginapp:
     image: httpd
     ports:
       - 81:80
     deploy:
-      replicas: 3
+      replicas: 2
